@@ -1,0 +1,11 @@
+1. Range of Int and Short Datatype.
+   Short Data Type:
+          Ranges from -2^15 to 2^15 -1.
+   Int Data Type:
+          Ranges from -2^31 to 2^31 -1.
+
+2. Purpose of comma in print statement.
+          For printing multiple values in print statement.
+
+3. Why class name should be same as filename?
+          So that Java compiler (javac) can easily locate the public class.

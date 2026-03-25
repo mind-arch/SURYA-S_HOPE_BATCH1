@@ -3,7 +3,7 @@ import java.util.*;
 public class DemoSB {
     public static void main(String[] args) {
 
-        // StringBuilder
+        
         StringBuilder sb = new StringBuilder("hello");
 
         System.out.println("Original: " + sb);
@@ -30,7 +30,6 @@ public class DemoSB {
 
         System.out.println("Length: " + sb.length());
 
-        // StringBuffer (same methods)
         StringBuffer sbf = new StringBuffer("Java");
 
         sbf.append(" Programming");
