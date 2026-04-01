@@ -14,4 +14,4 @@ public class defaultparameterized {
         defaultparameterized obj2 = new defaultparameterized(20);
         System.out.println(obj2.x);
     }
-}
+}       
