@@ -13,7 +13,7 @@ public class RecipeManager {
 
     public void showAllRecipes() {
         for (Recipe r : recipes) {
-            r.displayRecipe(); // Polymorphism
+            r.displayRecipe();
             System.out.println("-------------------");
         }
     }
