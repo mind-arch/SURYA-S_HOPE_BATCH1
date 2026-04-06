@@ -18,7 +18,6 @@ public class Main {
 
             manager.showAllRecipes();
 
-            System.out.println("Searching...");
             manager.searchRecipe("Chicken Biryani");
 
         } catch (Exception e) {

@@ -6,9 +6,8 @@ public class VegRecipe extends Recipe {
         super(name, cookingTime);
     }
 
-    @Override
     public void displayRecipe() {
-        System.out.println("Veg Recipe: " + getName());
-        System.out.println("Cooking Time: " + getCookingTime() + " mins");
+        System.out.println("Veg Recipe: " +getName());
+        System.out.println("Cooking Time: "+ getCookingTime()+ " mins");
     }
 }

@@ -8,8 +8,8 @@ public class Ingredient {
 
     public Ingredient(String name, int quantity) {
         ValidationUtil.validateQuantity(quantity);
-        this.name = name;
-        this.quantity = quantity;
+        this.name=name;
+        this.quantity=quantity;
     }
 
     public String getName() {

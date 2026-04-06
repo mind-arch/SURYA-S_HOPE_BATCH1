@@ -5,8 +5,8 @@ public abstract class Recipe {
     private int cookingTime;
 
     public Recipe(String name, int cookingTime) {
-        this.name = name;
-        this.cookingTime = cookingTime;
+        this.name =name;
+        this.cookingTime= cookingTime;
     }
 
     public String getName() {

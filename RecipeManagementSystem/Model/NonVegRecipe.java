@@ -6,9 +6,9 @@ public class NonVegRecipe extends Recipe {
         super(name, cookingTime);
     }
 
-    @Override
+    
     public void displayRecipe() {
-        System.out.println("Non-Veg Recipe: " + getName());
-        System.out.println("Cooking Time: " + getCookingTime() + " mins");
+        System.out.println("Non-Veg Recipe: " +getName());
+        System.out.println("Cooking Time: "+getCookingTime()+ " mins");
     }
 }
